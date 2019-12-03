@@ -12,12 +12,12 @@ p.b, h1, h2, h4, b, strong, i, em, u, cite, var, tt, code, kbd, samp, img, span,
 
 h1, h3, h4, b, h5	{font-weight: bolder} 
 
-p, h2 {font-weight: 500;}
+p, h2, ul, ol {font-weight: 500;}
 
 
 	
 h1,  h3, h4, h5, h6  		{color:#353535}
-p, ul, h2			{color:#424242}
+p, ul, h2, ol			{color:#424242}
 
 
 
@@ -26,10 +26,10 @@ h4			{font-size:1.8em;}
 h3 			{font-size:1.7em;}
 h2 			{font-size:1.7em;}
 h1			{font-size:1.4em;}
-p, p.b  		{font-size:1.2em;}
-				
+p, p.b,  		{font-size:1.2em;}
+ul, ol 			{font-size:1em;}				
 
-p {font-family: "georgia";}
+p, ul, ol {font-family: "georgia";}
 
 /* +++++++++++++  Text Shadow +++++++++++++++++++++ */
 
@@ -97,7 +97,7 @@ a:active 	{ color: #122A0A; text-decoration: none;}       /* active links */
 
 
 
-body {  margin: 6em; } 
+body {  margin: 7em; } 
 
 
 /* div tag for header jpg  */
@@ -111,5 +111,5 @@ img {
 
 img:hover {
     -webkit-transform:scale(3); /* or some other value */
-    transform:scale(1.5);
+    transform:scale(1.7);
 }
