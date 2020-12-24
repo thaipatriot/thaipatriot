@@ -105,6 +105,7 @@ div.static {position: absolute; left: 50px; top: 0px;}
 
 div.eltlogo {position: absolute; left: 45px; top: 40px;}
 
+	/* Image <img class="z" .....> */
 img {
     transition:transform 0.25s ease;
 }
@@ -115,3 +116,13 @@ img:hover {
 }
 
 p  			{font-size:1.2em;}
+
+
+
+	/* Image align centre */
+img.center
+ {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
